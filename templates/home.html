@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello Welcome to web page</title>
+    </head>
+    <body>
+        <h1>Hello Welcome to web page</h1>
+        {% for post in posts %}
+            <h2>{{ post.id }}</h2>
+            <h2>{{ post.name }}</h2>
+        {% endfor %}
+        <p>This is a simple web page created using Flask and Jinja2 templates.</p>
+    </body>
+</html> 
